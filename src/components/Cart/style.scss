@@ -1,0 +1,138 @@
+.product-cart {
+  margin-bottom: 80px;
+}
+.PRODUCT {
+  width: 600px;
+  display: flex;
+}
+.PRODUCT--show {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-title--group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PRICE {
+  width: 100px;
+  text-align: center;
+}
+.QUANTITY {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+}
+.SUBTOTAL {
+  text-align: center;
+  width: 100px;
+}
+
+.group-show {
+  display: flex;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  /* border-bottom: 1px solid #b9b28138; */
+}
+.cart-text {
+  font-size: 25px;
+  margin: 45px 0;
+}
+
+ul.cart-title {
+  border-bottom: 1px solid #b9b28170;
+  display: flex;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.cart-title__item-product {
+  width: 70%;
+}
+.cart-title--group {
+  list-style: none;
+  display: flex;
+}
+.cart-title__item {
+  font-size: 13px;
+  font-weight: 700;
+  /* padding: 0px 38px 10px 0; */
+}
+
+.cart-show__product {
+  display: flex;
+  align-items: center;
+}
+
+.cart-show--remove {
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  margin-right: 15px;
+}
+
+.cart-show--remove-icon {
+  background-color: rgba(77, 76, 76, 0.479);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 22px;
+  transition: 0.2s;
+  color: white;
+  padding-bottom: 2px;
+}
+.cart-show--remove-icon:hover {
+  background-color: rgb(43, 42, 42);
+}
+
+.cart-show--image {
+  width: 100px;
+  margin-right: 15px;
+}
+.cart-show--image img {
+  width: 100%;
+}
+
+.cart-show--description {
+  color: #121212;
+  font-size: 16px;
+  width: 100%;
+}
+.cart-show--price {
+  color: #121212;
+  font-size: 13px;
+}
+.cart-show--subtotal {
+  color: #121212;
+  font-size: 13px;
+}
+.cart-show--quantity {
+  display: flex;
+  justify-content: center;
+}
+.cart--empty {
+  display: none;
+  h1 {
+    margin: 30px 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    padding: 15px 25px;
+    background-color: #121212;
+    border: none;
+    border-radius: 2px;
+    transition: 0.2s;
+    &:hover {
+      background-color: #c03d31;
+    }
+  }
+}

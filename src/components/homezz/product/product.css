@@ -1,0 +1,29 @@
+/* // Has been in to Cart  */
+.addCart--success{
+    z-index: 5;
+    background-color: #2b6925a2;
+    position: fixed;
+    top:30px ;
+    right: 80px;
+    display: flex;
+    width: 300px;
+    height: 70px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    transform: translateX(500px);
+    transition: 0.9s ;
+
+}
+.addCart--img{
+   width: 40px;
+   height: 40px;
+   margin: 0 20px;
+
+}
+.addCart--text{
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+}

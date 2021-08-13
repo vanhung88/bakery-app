@@ -1,0 +1,16 @@
+@keyframes header__notify-gown{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes header__notify-gown2{
+    from{
+        transform : translateX(0px)
+    }
+    to{
+        transform : translateX(400px)
+    }
+}

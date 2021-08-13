@@ -1,0 +1,32 @@
+.signUp {
+  display: flex;
+  //   width: 120px !important;
+  margin-right: 30px;
+  a {
+    margin: auto;
+    text-decoration: none;
+  }
+  span {
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 15px;
+    background-color: rgba(177, 142, 47, 0.89);
+    transition: 0.2s;
+    color: black;
+    &:hover {
+      background-color: rgba(139, 113, 41, 0.89);
+    }
+  }
+  .account-login {
+    width: 35px;
+    height: 35px;
+    img {
+      // border: 2px solid rgba(143, 105, 22, 0.575);
+      border-radius: 50%;
+      width: 90%;
+      padding-top: 1px;
+    }
+  }
+}
