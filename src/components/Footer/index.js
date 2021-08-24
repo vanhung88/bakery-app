@@ -89,6 +89,7 @@ class Footer extends Component {
             <div className="contact-2">
               <div className="footer__phone">NEED HELP? : 1-800-672-4399</div>
               <div className="footer__email">MAIL : bakreryDN@gmail.com</div>
+              <div className="footer__email">hihi dday la conflict</div>
             </div>
           </div>
         </div>
