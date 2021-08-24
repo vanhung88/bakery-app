@@ -10,7 +10,7 @@ class Footer extends Component {
               <div className="col l-2 m-4 c-6">
                 <div className="footer__heading">COMPANY</div>
                 <ul className="footer-list">
-                  <li className="footer-items">About Us AHAHA</li>
+                  <li className="footer-items">About Us</li>
                   <li className="footer-items">Careers</li>
                   <li className="footer-items">Affiliates</li>
                   <li className="footer-items">Blog</li>
