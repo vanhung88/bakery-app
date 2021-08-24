@@ -96,11 +96,4 @@ class Footer extends Component {
     );
   }
 }
-
-// const mapStateToProps = (state, ownProps) => {
-//   return {
-//     nameH: state.name
-//   }
-// }
-//this.props.nameH
 export default Footer;
