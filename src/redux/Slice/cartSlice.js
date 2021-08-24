@@ -17,6 +17,10 @@ const cartSlice = createSlice({
       });
       return state;
     },
+
+    remove:(state,action)=>{
+      
+    }
   },
 });
 
